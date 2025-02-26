@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Color Picker App</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <h1>Color Picker</h1>
+
+      <label for="colorInput">Choose a color:</label>
+      <input type="color" id="colorInput" />
+
+      <label for="opacityInput">Opacity:</label>
+      <input
+        type="range"
+        id="opacityInput"
+        min="0"
+        max="1"
+        step="0.01"
+        value="1"
+      />
+
+      <div class="box"></div>
+
+      <p>Selected Color: <span id="colorValue"></span></p>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>

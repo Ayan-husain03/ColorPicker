@@ -1,0 +1,35 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: Arial, sans-serif;
+    background-color: #f7f7f7;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  .container {
+    text-align: center;
+  }
+  
+  input[type="color"] {
+    margin-bottom: 10px;
+  }
+  
+  .box {
+    border-radius: 10px;
+    width: 200px;
+    height: 200px;
+    background-color: #000;
+    margin: 20px auto;
+  }
+  
+  p {
+    font-size: 1.2rem;
+  }
+  
